@@ -26,6 +26,14 @@ fs.writeFileSync(`${answers.title}.md`, data)}
 function createReadMe(answers) {
     return`
 # ${answers.title}
+![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
+## Table of Contents 
+
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+
+
 ## Description
 ${answers.description}
 ## Installation
